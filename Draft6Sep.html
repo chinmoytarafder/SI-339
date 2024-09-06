@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ann Arbor Skyline High School - Cross Country Progress</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #00274c; /* Blue */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #00274c; /* Blue */
+            color: #ffcb05; /* Maize */
+        }
+        header img {
+            max-width: 150px;
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #00274c; /* Blue */
+            color: #ffcb05; /* Maize */
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #ffcb05; /* Maize */
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #ccc;
+        }
+        .year-data {
+            margin-bottom: 40px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table thead {
+            background-color: #ffcb05; /* Maize */
+            color: #00274c; /* Blue */
+        }
+        table thead th, table tbody td {
+            padding: 10px;
+            border: 1px solid #cccccc;
+        }
+        table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .photo-upload {
+            margin-bottom: 40px;
+        }
+        .photo-upload input[type="file"] {
+            display: flex;
+            margin: 0 auto;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #00274c; /* Blue */
+            color: #ffcb05; /* Maize */
+        }
+        @media print {
+            body {
+                background: none;
+                color: #000;
+            }
+            header, footer, nav, .photo-upload, .year-chart {
+                display: none;
+            }
+        }
+
+        /* Additional styles */
+        .container h2::before {
+            content: "# ";
+            color: #ffcb05;
+        }
+
+        .maize-text {
+            color: #ffcb05;
+        }
+
+        a {
+            color: #00274c;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="team-logo.png" alt="Ann Arbor Skyline Logo"> <!-- Replace with your team logo -->
+            <h1>Ann Arbor Skyline Cross Country Progress</h1>
+        </header>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#runners">Runners</a>
+            <a href="#progress">Progress</a>
+            <a href="#upload-photos">Upload Photos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <div id="home" class="year-data">
+            <h2>2023 Season</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Race</th>
+                        <th>Time</th>
+                        <th>Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample data, replace with actual data from the link -->
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Race 1</td>
+                        <td>16:45</td>
+                        <td>1st</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Race 1</td>
+                        <td>18:20</td>
+                        <td>3rd</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="runners" class="year-data">
+            <h2>2022 Season</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Race</th>
+                        <th>Time</th>
+                        <th>Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample data, replace with actual data from the link -->
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Race 1</td>
+                        <td>17:10</td>
+                        <td>2nd</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Race 1</td>
+                        <td>18:55</td>
+                        <td>5th</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="progress" class="year-data">
+            <h2>2021 Season</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Race</th>
+                        <th>Time</th>
+                        <th>Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample data, replace with actual data from the link -->
+                    <tr>
+                        <td>John Doe</td>
+                        <td>Race 1</td>
+                        <td>17:45</td>
+                        <td>4th</td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Race 1</td>
+                        <td>19:30</td>
+                        <td>6th</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="upload-photos" class="photo-upload">
+            <h2>Upload Your Favorite Pictures</h2>
+            <input type="file" accept="image/*">
+        </div>
+
+        <div id="contact" class="year-data">
+            <h2>Contact Information</h2>
+            <p>For more information, please contact the Ann Arbor Skyline Cross Country team at <a href="mailto:contact@skylinecc.com">contact@skylinecc.com</a>.</p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Ann Arbor Skyline Cross Country Team</p>
+    </footer>
+</body>
+</html>
